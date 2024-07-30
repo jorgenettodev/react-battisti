@@ -1,9 +1,9 @@
 const Cachorro = ({nome, raca}) => {
     return (
         <div>
-            <p>O cachorro se chama {nome} e é da raça {raca}</p>
+            <p>Meu antigo cachorro se chamava {nome} e era um {raca}, sinto saudades dele.</p>
         </div>
-    );
+    )
 }
 
 export default Cachorro;
