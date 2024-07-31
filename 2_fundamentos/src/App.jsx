@@ -40,7 +40,7 @@ function App() {
       {/* 6.16 - Estilização atraves de classe css */}
       <BotaoComClasse />
       {/* Exercicios */}
-      <Exercises />
+      <Exercises/>
     </>
   );
 }
