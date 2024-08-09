@@ -6,6 +6,8 @@ import { MeuContextoProvider } from "./contexts/MeuContexto"; // importa o prove
 import ValorDoContexto from "./components/ValorDoContexto";
 import ComponenteFilho from "./components/ComponenteFilho";
 import WindowSizeComponent from "./components/WindowSizeComponent";
+import Container from "./components/Container";
+import PerfilDeUsuario from "./components/PerfilDeUsuario";
 
 function App() {
   return (
@@ -23,6 +25,11 @@ function App() {
         {/* estados mais complexos (do que o useState) */}
       {/* 8.4 - Custom hook */}
       <WindowSizeComponent />
+      {/* 8.5 - Props children */}
+      <Container>
+        <Timer />
+      </Container>
+      <PerfilDeUsuario usuarioId={0}/>
     </>
   );
 }
